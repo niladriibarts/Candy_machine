@@ -1,0 +1,287 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_overlay_3FrkpM": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_MEEHjQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "<strong>ABOUT US</strong>"
+          }
+        },
+        "heading_W8mPfG": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Answer to All Your Bulk Candy Vending Needs!",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MEEHjQ",
+        "heading_W8mPfG"
+      ],
+      "custom_css": [
+        ".rich-text {max-width: 100rem;}",
+        "@media screen and (min-width: 768px) {.rich-text {padding-left: 50px; padding-right: 50px; margin-top: auto; margin-bottom: auto; }}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "image": "shopify://shop_images/about-us-banner.png",
+        "desktop_height": "small",
+        "overlay_opacity": 0,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "top-left",
+        "content_alignment": "left",
+        "image_mobile": "shopify://shop_images/about-us-hero-mobile.png",
+        "mobile_height": "medium",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "enable_preload_image": true
+      }
+    },
+    "rich_text_kyFd96": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Y9MMVQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bringing sweet moments to life for over 50 years",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_7h6LaE": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>At CandyMachines.com, we believe vending is more than machines and candy. It’s about creating small moments of joy that brighten everyday life. For over five decades, our family owned and operated business has been a trusted name in vending, proudly serving businesses, schools, and organizations across the country.<br/><br/>From </strong><a href=\"/collections/vending-machines\" title=\"Vending Machines\"><strong>vending machines</strong></a><strong> and </strong><a href=\"/collections/gumball-machines\" title=\"Gumball Machines\"><strong>gumball machines</strong></a><strong> to </strong><a href=\"/collections/candy-machines\" title=\"Candy Machines\"><strong>bulk candy</strong></a><strong>, </strong><a href=\"/collections/gumballs\" title=\"Gumballs\"><strong>gumballs</strong></a><strong>, and supplies, we’ve built one of the most comprehensive catalogs in the industry, designed to help you find exactly what you need, all in one place.<br/><br/></strong></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y9MMVQ",
+        "text_7h6LaE"
+      ],
+      "custom_css": [
+        ".rich-text {max-width: 82rem; margin: 0 auto;}",
+        "@media (max-width: 1023px) {.rich-text__heading {max-width: 50rem; margin: 0 auto; }}",
+        "a {color: #00a7e1; text-decoration: none;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_HyXTgE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xJUU6A": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your Complete Vending Solution",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_9m6MFm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>What began as a family business has grown into a nationwide operation, yet our values remain the same.</strong></p><ul><li><strong>A wide variety of vending machines and bulk candy options</strong></li><li><strong>Expert guidance tailored to your needs</strong></li><li><strong>Fast, dependable order fulfillment and delivery</strong></li></ul><p><strong>CandyMachines.com. The answer to all your bulk candy vending needs.</strong></p>",
+            "subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_xJUU6A",
+        "text_9m6MFm"
+      ],
+      "custom_css": [
+        ".rich-text__heading,.rich-text__text {max-width: 70rem;}"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/gumball-machine.png",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_aHr4mN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yyRynW": {
+          "type": "heading",
+          "settings": {
+            "heading": "To serve our customers quickly and efficiently, we operate with:",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "icon_with_text_4AT9Fa": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "location",
+            "icon_width": 24,
+            "color": "#7b5dff",
+            "heading": "",
+            "heading_size": "h5",
+            "text": "<p><strong>Sales and Customer Service Headquarters in Utah</strong></p>",
+            "vertical_alignment": "start"
+          }
+        },
+        "icon_with_text_E6HaVr": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "location",
+            "icon_width": 24,
+            "color": "#7b5dff",
+            "heading": "",
+            "heading_size": "h5",
+            "text": "<p><strong>Main Fulfillment Center in Illinois</strong></p>",
+            "vertical_alignment": "start"
+          }
+        },
+        "icon_with_text_Ck483g": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "location",
+            "icon_width": 24,
+            "color": "#7b5dff",
+            "heading": "",
+            "heading_size": "h5",
+            "text": "<p><strong>Additional warehouses nationwide for fast, reliable shipping</strong></p>",
+            "vertical_alignment": "start"
+          }
+        },
+        "subheading_Hq7KAW": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Let’s Connect"
+          }
+        },
+        "text_gtgEgK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Our team is here to answer questions and provide support.</strong></p>",
+            "subtext_color": true
+          }
+        },
+        "icon_with_text_iq4wkc": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "phone",
+            "icon_width": 24,
+            "color": "#7b5dff",
+            "heading": "",
+            "heading_size": "h5",
+            "text": "<p><strong>Phone: (800) 853-3941</strong></p>",
+            "vertical_alignment": "start"
+          }
+        },
+        "icon_with_text_gXzz3h": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "chat",
+            "icon_width": 24,
+            "color": "#7b5dff",
+            "heading": "",
+            "heading_size": "h5",
+            "text": "<p><strong>Email: support@candymachines.com</strong></p>",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yyRynW",
+        "icon_with_text_4AT9Fa",
+        "icon_with_text_E6HaVr",
+        "icon_with_text_Ck483g",
+        "subheading_Hq7KAW",
+        "text_gtgEgK",
+        "icon_with_text_iq4wkc",
+        "icon_with_text_gXzz3h"
+      ],
+      "custom_css": [
+        ".image-with-text__content {max-width: 50rem;}",
+        ".rich-text__subheading {font-size: 36px; font-weight: 800;}"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/gumballs-about-us.png",
+        "image_position": "right",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_3FrkpM",
+    "rich_text_kyFd96",
+    "image_with_text_HyXTgE",
+    "image_with_text_aHr4mN"
+  ]
+}

@@ -1,0 +1,351 @@
+{% style  %} 
+
+.custom-footer {
+  background: #ffffff;
+  color: #555;
+  font-size: 13px;
+}
+
+.custom-footer__top {
+  display: flex;
+  gap: 40px;
+  padding: 50px 0px;
+}
+
+.custom-footer__brand {
+  width: 220px;
+}
+
+.custom-footer__logo {
+  max-width: 180px;
+  margin-bottom: 15px;
+}
+
+.custom-footer__logo-text {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.custom-footer__social a {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.custom-footer__social a img {
+  width: 28px;
+  height: 28px;
+}
+
+.custom-footer__links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.custom-footer__column h4 {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #000;
+}
+
+.custom-footer__column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-footer__column li {
+  margin-bottom: 8px;
+}
+
+.custom-footer__column a {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.custom-footer__column a:hover {
+  text-decoration: underline;
+}
+
+.custom-footer__help {
+  text-align: center;
+}
+
+.custom-footer__bottom {
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 5%;
+}
+
+.custom-footer__payments svg {
+  height: 22px;
+  margin-left: 6px;
+}
+
+
+@media (max-width: 1024px) {
+  .custom-footer__top {
+    flex-direction: column;
+  }
+
+  .custom-footer__brand {
+    width: 100%;
+  }
+
+  .custom-footer__links {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-footer__bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  .custom-footer__links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+{% endstyle %}
+
+<footer class="page-width custom-footer">
+<div class="ib-custom-container">
+  <div class="custom-footer__container">
+
+    <div class="custom-footer__top">
+
+      <div class="custom-footer__brand">
+        {% if section.settings.logo != blank %}
+          <img
+            src="{{ section.settings.logo | image_url }}"
+            width="200"
+            height="200"
+            alt="{{ shop.name }}"
+            class="custom-footer__logo"
+          >
+        {% else %}
+          <h3 class="custom-footer__logo-text">{{ shop.name }}</h3>
+        {% endif %}
+
+        <div class="custom-footer__social">
+          {% if section.settings.facebook != blank %}
+            <a href="{{ section.settings.facebook }}" aria-label="Facebook">
+              <img
+                src="{{ section.settings.facebook_icon | image_url }}"
+                width="200"
+                height="200"
+                alt="{{ shop.name }}"
+                class="custom-footer__logo"
+              >
+            </a>
+          {% endif %}
+          {% if section.settings.instagram != blank %}
+            <a href="{{ section.settings.instagram }}" aria-label="Instagram">
+              <img
+                src="{{ section.settings.instagram_icon | image_url }}"
+                width="200"
+                height="200"
+                alt="{{ shop.name }}"
+                class="custom-footer__logo"
+              >
+            </a>
+          {% endif %}
+          {% if section.settings.youtube != blank %}
+            <a href="{{ section.settings.youtube }}" aria-label="YouTube">
+              <img
+                src="{{ section.settings.youtube_icon | image_url }}"
+                width="200"
+                height="200"
+                alt="{{ shop.name }}"
+                class="custom-footer__logo"
+              >
+            </a>
+          {% endif %}
+          {% if section.settings.linkedin != blank %}
+            <a href="{{ section.settings.linkedin }}" aria-label="LinkedIn">
+              <img
+                src="{{ section.settings.linkedin_icon | image_url }}"
+                width="200"
+                height="200"
+                alt="{{ shop.name }}"
+                class="custom-footer__logo"
+              >
+            </a>
+          {% endif %}
+          {% if section.settings.twitter != blank %}
+            <a href="{{ section.settings.messenger }}" aria-label="Twitter">
+              <img
+                src="{{ section.settings.messenger_icon | image_url }}"
+                width="200"
+                height="200"
+                alt="{{ shop.name }}"
+                class="custom-footer__logo"
+              >
+            </a>
+          {% endif %}
+        </div>
+      </div>
+
+      <!-- LINKS -->
+      <div class="custom-footer__links">
+        {% for block in section.blocks %}
+          <div class="custom-footer__column" {{ block.shopify_attributes }}>
+            <h4>{{ block.settings.heading }}</h4>
+            <ul>
+              {% for link in block.settings.menu.links %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+
+    </div>
+
+  </div>
+</div>
+  <!-- HELP BAR -->
+  <div class="page-width ib-custom-footer__help">
+  <div class="ib-custom-container custom-footer__help">
+    Have Questions? Call Today And Talk To A Vending Expert!
+    <strong>{{ section.settings.phone }}</strong>
+  </div>
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="page-width ib-custom-footer__bottom">
+  <div class="ib-custom-container custom-footer__bottom">
+    <div class="custom-footer__copy">
+      © 1996–{{ 'now' | date: '%Y' }} {{ shop.name }} | {{ section.settings.alt_phone }}
+    </div>
+
+    <div class="custom-footer__payments">
+      {% for type in shop.enabled_payment_types %}
+        {{ type | payment_type_svg_tag }}
+      {% endfor %}
+    </div>
+  </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Custom Footer",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Footer Logo"
+    },
+    {
+      "type": "text",
+      "id": "phone",
+      "label": "Main Phone Number",
+      "default": "800-853-3941"
+    },
+    {
+      "type": "text",
+      "id": "alt_phone",
+      "label": "Secondary Phone",
+      "default": "610-209-294"
+    },
+    {
+      "type": "url",
+      "id": "facebook",
+      "label": "Facebook URL"
+    },
+    {
+      "type": "image_picker",
+      "id": "facebook_icon",
+      "label": "Facebook Icon"
+    },
+    {
+      "type": "url",
+      "id": "instagram",
+      "label": "Instagram URL"
+    },
+    {
+      "type": "image_picker",
+      "id": "instagram_icon",
+      "label": "Instagram Icon"
+    },
+    {
+      "type": "url",
+      "id": "youtube",
+      "label": "YouTube URL"
+    },
+    {
+      "type": "image_picker",
+      "id": "youtube_icon",
+      "label": "YouTube Icon"
+    },
+    {
+      "type": "url",
+      "id": "linkedin",
+      "label": "LinkedIn URL"
+    },
+    {
+      "type": "image_picker",
+      "id": "linkedin_icon",
+      "label": "LinkedIn Icon"
+    },
+    {
+      "type": "url",
+      "id": "messenger",
+      "label": "messenger URL"
+    },
+    {
+      "type": "image_picker",
+      "id": "messenger_icon",
+      "label": "messenger Icon"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "menu",
+      "name": "Footer Menu Column",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Column Heading"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Footer",
+      "blocks": [
+        { "type": "menu" },
+        { "type": "menu" },
+        { "type": "menu" },
+        { "type": "menu" }
+      ]
+    }
+  ]
+}
+{% endschema %}

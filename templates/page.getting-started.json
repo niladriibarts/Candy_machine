@@ -1,0 +1,201 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_geM4e9": {
+      "type": "breadcrumbs",
+      "name": "t:sections.breadcrumbs.name",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_overlay_G7AHLB": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_PLiniX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How to Start a Vending Machine Business"
+          }
+        },
+        "heading_4G4MYn": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Beginner's Guide",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        },
+        "text_JzeYeL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. <br/>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PLiniX",
+        "heading_4G4MYn",
+        "text_JzeYeL"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "fixed",
+        "image": "shopify://shop_images/Getting_Started_Banner.png",
+        "desktop_height": "adapt",
+        "overlay_opacity": 0,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "image_mobile": "shopify://shop_images/Hero_Content-mobile.png",
+        "mobile_height": "medium",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "enable_preload_image": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "left",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "grid_banner_gWkYEY": {
+      "type": "grid-banner",
+      "blocks": {
+        "banner_card_Bix6Di": {
+          "type": "banner-card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/entrepreneur_starter_kit.png",
+            "image_mobile": "shopify://shop_images/entrepreneur_kit-mobile.png",
+            "image_overlay_opacity": 30,
+            "column_span": 2,
+            "row_span": 1,
+            "content_spacing": "medium",
+            "content_gap": "standard",
+            "content_position": "bottom-left",
+            "content_alignment": "left",
+            "content_position_mobile": "middle-center",
+            "content_alignment_mobile": "center",
+            "card_link": "shopify://pages/entrepreneur-starter-kit",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Entrepreneur Starter Kit",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Commodo dui non nibh molestie ut laoreet enim.</p>",
+            "text_size": "text-base",
+            "button_label": "Learn More",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "button_size": "btn--medium",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        },
+        "banner_card_yfFVTg": {
+          "type": "banner-card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/startup_calculator.png",
+            "image_mobile": "shopify://shop_images/startup-calc-mobile.png",
+            "image_overlay_opacity": 30,
+            "column_span": 2,
+            "row_span": 1,
+            "content_spacing": "medium",
+            "content_gap": "standard",
+            "content_position": "bottom-left",
+            "content_alignment": "left",
+            "content_position_mobile": "middle-center",
+            "content_alignment_mobile": "center",
+            "card_link": "shopify://pages/startup-calculator",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Startup Calculator",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Commodo dui non nibh molestie ut laoreet enim.</p>",
+            "text_size": "text-base",
+            "button_label": "Learn More",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "button_size": "btn--medium",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "banner_card_Bix6Di",
+        "banner_card_yfFVTg"
+      ],
+      "name": "t:sections.grid-banner.presets__1.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "description_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "columns": 4,
+        "banner_height": "medium",
+        "gap": "small",
+        "enable_swiper_mobile": false,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_geM4e9",
+    "image_with_text_overlay_G7AHLB",
+    "main",
+    "grid_banner_gWkYEY"
+  ]
+}

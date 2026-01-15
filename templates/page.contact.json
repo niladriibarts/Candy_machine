@@ -1,0 +1,276 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_xYaBHj": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "17610467335b6b92db": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_982b8b3_rpgMQU": {
+          "type": "ai_gen_block_982b8b3",
+          "settings": {
+            "main_heading": "Contact Us",
+            "main_subtitle": "Have questions about our store or products? Drop us a line. Our dedicated team at Candy Machines is here to assist you every step of the way. Contact us via phone, email, or through our website to get started.",
+            "main_heading_size": 40,
+            "main_heading_weight": "700",
+            "main_subtitle_size": 18,
+            "main_subtitle_weight": "400",
+            "field_spacing": 20,
+            "label_font_size": 16,
+            "label_font_weight": "500",
+            "input_font_size": 16,
+            "checkbox_font_size": 13,
+            "checkbox_font_weight": "400",
+            "button_text": "Submit",
+            "button_font_size": 16,
+            "button_font_weight": "500",
+            "success_message": "Thank you for contacting us. We'll get back to you as soon as possible.",
+            "info_heading": "To serve our customer quickly and efficiently, we operate with",
+            "info_subtitle": "",
+            "section_heading_size": 32,
+            "section_heading_weight": "700",
+            "section_subtitle_size": 16,
+            "section_subtitle_weight": "400",
+            "description": "",
+            "description_font_size": 16,
+            "description_font_weight": "400",
+            "info_item_spacing": 16,
+            "info_text_font_size": 15,
+            "info_text_font_weight": "400",
+            "phone_utah": "Utah: 1-801-417-9834",
+            "phone_toll_free": "Text: 1-801-417-9834",
+            "email": "Email: support@candymachines.com",
+            "background_color": "#ffffff",
+            "text_color": "#2b2d42",
+            "subtext_color": "#4d4d4d",
+            "icon_color": "#7b5dff",
+            "primary_accent": "#ff00a1",
+            "input_background_color": "#e5e7eb",
+            "input_border_color": "#d1d5db",
+            "button_color": "#00a7e1",
+            "button_text_color": "#ffffff",
+            "button_hover_color": "#d6008a",
+            "input_border_radius": 10,
+            "button_border_radius": 10,
+            "custom_css": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_982b8b3_rpgMQU"
+      ],
+      "settings": {}
+    },
+    "rich_text_pJmnMX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4pg8ec": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONTACT US",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_GbXmPQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Have questions about our store or products? Drop us a line. Our dedicated team at Candy Machines is here to assist you every step of the way. Contact us via phone, email, or through our website to get started. <br/><br/></strong></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4pg8ec",
+        "text_GbXmPQ"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "17610302188414bdf8": {
+      "type": "_blocks",
+      "disabled": true,
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        ".rich-text {max-width: 67rem;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "sidebar_6PaerX": {
+          "type": "sidebar",
+          "settings": {
+            "position": "right",
+            "heading": "To serve our customers quickly and efficiently, we operate with:",
+            "heading_size": "h3",
+            "text": "<p>Our team is here to answer questions and provide support.</p>",
+            "text_size": "text-base",
+            "icon_1": "map-pin",
+            "icon_width_1": 32,
+            "icon_color_1": "#000000",
+            "icon_heading_1": "",
+            "icon_heading_size_1": "h5",
+            "icon_text_1": "<p><strong>Sales and Customer Service Headquarters in Utah</strong></p><p><strong>Main Fulfillment Center in Illinois</strong></p><p><strong>Additional warehouses nationwide for fast, reliable shipping</strong></p>",
+            "icon_vertical_alignment_1": "start",
+            "icon_2": "phone",
+            "icon_width_2": 28,
+            "icon_color_2": "#000000",
+            "icon_heading_2": "",
+            "icon_heading_size_2": "h5",
+            "icon_text_2": "<p><strong>Utah: 1-801-417-9834 </strong></p>",
+            "icon_vertical_alignment_2": "start",
+            "icon_3": "clock",
+            "icon_custom_3": "shopify://shop_images/Email_Icon_73b05975-dcb5-4232-bac7-becd3ac66dae.svg",
+            "icon_width_3": 28,
+            "icon_color_3": "#000000",
+            "icon_heading_3": "",
+            "icon_heading_size_3": "h5",
+            "icon_text_3": "<p><strong>support@candymachines.com</strong></p>",
+            "icon_vertical_alignment_3": "start",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "custom_field_8AQYaC": {
+          "type": "custom_field",
+          "settings": {
+            "field_type": "phone",
+            "heading": "Phone Number",
+            "placeholder": "Phone Number",
+            "required": true,
+            "full_width": false,
+            "select_options": "",
+            "checkbox_checked_value": "Yes",
+            "checkbox_uncheck_value": "No",
+            "radio_options": ""
+          }
+        },
+        "custom_field_8mNKKQ": {
+          "type": "custom_field",
+          "settings": {
+            "field_type": "text",
+            "heading": "Order Number",
+            "placeholder": "Order Number",
+            "required": false,
+            "full_width": false,
+            "select_options": "",
+            "checkbox_checked_value": "Yes",
+            "checkbox_uncheck_value": "No",
+            "radio_options": ""
+          }
+        },
+        "custom_field_d63Kne": {
+          "type": "custom_field",
+          "settings": {
+            "field_type": "select",
+            "heading": "Country",
+            "placeholder": "",
+            "required": false,
+            "full_width": true,
+            "select_options": "Austria,Viet Nam,Japan",
+            "checkbox_checked_value": "Yes",
+            "checkbox_uncheck_value": "No",
+            "radio_options": ""
+          }
+        }
+      },
+      "block_order": [
+        "sidebar_6PaerX",
+        "custom_field_8AQYaC",
+        "custom_field_8mNKKQ",
+        "custom_field_d63Kne"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "section_color_scheme": "scheme-12",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "hd2",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_liquid_FC99cL": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        ".contact-grid {display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;}",
+        ".contact-info h2 {margin-top: 1.5rem;}",
+        ".contact-list {list-style: none; padding: 0; margin: 0 0 1.5rem 0;}",
+        ".contact-list li {align-items: center; gap: 0.6rem; padding: 0.75rem 0;}",
+        ".contact-list li:last-child {border-bottom: none;}",
+        ".contact-list img {width: 20px; height: 20px;}",
+        "@media (max-width: 768px) {.contact-grid {grid-template-columns: 1fr; }}"
+      ],
+      "name": "t:sections.custom-liquid.name",
+      "settings": {
+        "custom_liquid": "<section class=\"contact-section page-width\">\n  <div class=\"contact-grid\">\n    \n    <!-- Left Column - Contact Form -->\n    <div class=\"contact-form-wrapper\">\n   <form\n  method=\"post\"\n  action=\"/contact#contact_form\"\n  id=\"ContactForm\"\n  accept-charset=\"UTF-8\"\n  class=\"contact-form\"\n>\n  <input type=\"hidden\" name=\"form_type\" value=\"contact\">\n  <input type=\"hidden\" name=\"utf8\" value=\"✓\">\n\n  <div class=\"input-row\">\n    <label for=\"ContactFormName\">Name</label>\n    <div class=\"name-fields\">\n      <input type=\"text\" id=\"ContactFormName\" name=\"contact[first_name]\" placeholder=\"First Name\" required>\n      <input type=\"text\" name=\"contact[last_name]\" placeholder=\"Last Name\" required>\n    </div>\n  </div>\n\n  <div class=\"input-row double-input\">\n    <div class=\"db-box\">\n      <label for=\"ContactFormEmail\">Email</label>\n      <input type=\"email\" id=\"ContactFormEmail\" name=\"contact[email]\" placeholder=\"example@example.com\" required>\n    </div>\n\n    <div class=\"db-box\">\n      <label for=\"ContactFormPhone\">Phone Number</label>\n      <input type=\"tel\" id=\"ContactFormPhone\" name=\"contact[phone]\" placeholder=\"(000) 000-0000\">\n    </div>\n  </div>\n\n  <div class=\"input-row\">\n    <label for=\"ContactFormOrder\">Order Number</label>\n    <input type=\"text\" id=\"ContactFormOrder\" name=\"contact[order_number]\">\n  </div>\n\n  <div class=\"input-row\">\n    <label for=\"ContactFormMessage\">Comments/Questions</label>\n    <textarea id=\"ContactFormMessage\" name=\"contact[body]\" rows=\"5\" placeholder=\"Enter your message here\"></textarea>\n  </div>\n\n  <p class=\"sms-terms\">\n    By checking this box, you agree to receive SMS text messages from CandyMachines.com. Reply STOP to opt out at any time. Message and data rates may apply. Message frequency may vary, text HELP to 801-417-9834 for assistance. For more information, please refer to our privacy policy, and SMS Terms and Conditions on our website.\n  </p>\n\n  <div class=\"input-row checkbox-row\">\n    <input type=\"checkbox\" id=\"sms-agree\" name=\"contact[accepts_sms]\" value=\"true\">\n    <label for=\"sms-agree\">I agree to receive SMS communication</label>\n  </div>\n\n  <button type=\"submit\" class=\"submit-btn\">Submit</button>\n</form>\n\n\n    </div>\n\n    <div class=\"contact-info\">\n      <h2>To serve our customers quickly<br> and efficiently, we operate with:</h2>\n<br>\n      <ul class=\"contact-list\">\n        <li>\n          <img src=\"https://cdn.shopify.com/s/files/1/0745/1666/0455/files/contact-location.svg?v=1758909501\" alt=\"Location icon\" />\n          Sales and Customer Service Headquarters in Utah\n        </li>\n        <li>\n          <img src=\"https://cdn.shopify.com/s/files/1/0745/1666/0455/files/contact-location.svg?v=1758909501\" alt=\"Location icon\" />\n          Main Fulfillment Center in Illinois\n        </li>\n        <li>\n          <img src=\"https://cdn.shopify.com/s/files/1/0745/1666/0455/files/contact-location.svg?v=1758909501\" alt=\"Location icon\" />\n          Additional warehouses nationwide for fast, reliable shipping\n        </li>\n      </ul>\n\n      <h2>Let’s Connect</h2>\n      <p>Our team is here to answer questions and provide support.</p>\n      <ul class=\"contact-list\">\n        <li>\n          <img src=\"https://cdn.shopify.com/s/files/1/0745/1666/0455/files/contact-call.svg?v=1758909479\" alt=\"Call icon\" />\n          Utah: 1-801-417-9834\n        </li>\n        <li>\n          <img src=\"https://cdn.shopify.com/s/files/1/0745/1666/0455/files/contact-message.png?v=1758909489\" alt=\"Chat icon\" />\n          Text: 1-801-417-9834\n        </li>\n        <li>\n          <img src=\"https://cdn.shopify.com/s/files/1/0745/1666/0455/files/email-icon.svg?v=1758909563\" alt=\"Email icon\" />\n          support@candymachines.com\n        </li>\n      </ul>\n    </div>\n  </div>\n</section>\n\n\n <!-- Left Column - Contact Form -->\n\n\n<style>\n   .contact-form {\n    max-width: 600px;\n    margin: 0 auto;\n  }\n\n  .contact-form label {\n    font-family: 'Tilt Warp', sans-serif;\n  }\n\n  .contact-form input,\n  .contact-form textarea {\n    font-family: 'Nunito', sans-serif;\n  }\n\n  .input-row {\n    margin: 2rem 0;\n  }\n\n  .name-fields,\n  .double-input {\n    display: flex;\n    gap: 1rem;\n  }\n\n  input,\n  textarea {\n    width: 100%;\n    padding: 10px;\n    border-radius: 8px;\n    border: 1px solid #ccc;\n    background: #f0f1f4;\n    font-size: 14px;\n  }\n\n  #sms-agree {\n    width: auto;\n  }\n\n  .db-box {\n    width: 100%;\n  }\n\n  label {\n    display: block;\n    font-weight: 500;\n    margin-bottom: 0.3rem;\n  }\n\n  .checkbox-row {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n\n  .sms-terms {\n    font-size: 12px;\n    color: #555;\n  }\n\n  .submit-btn {\n    background: #00a9e0;\n    color: white;\n    border: none;\n    padding: 10px 20px;\n    border-radius: 8px;\n    font-size: 16px;\n    cursor: pointer;\n  }\n\n  .submit-btn:hover {\n    background: #008fc7;\n  }\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_xYaBHj",
+    "17610467335b6b92db",
+    "rich_text_pJmnMX",
+    "17610302188414bdf8",
+    "main",
+    "form",
+    "custom_liquid_FC99cL"
+  ]
+}

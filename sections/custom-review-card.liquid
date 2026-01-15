@@ -1,0 +1,246 @@
+{%  style %}
+
+.custom-review {
+  background: -webkit-linear-gradient(#FFD4ED, #FFFFFF);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
+.custom-review__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.custom-review__heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #2b2b2b;
+  line-height: 1.2;
+  width: 50%;
+}
+
+.custom-review__arrows {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-review__arrows button {
+  width: 50px;             
+  height: 50px;            
+  border-radius: 50%;
+  background: #ff4d94;
+  border: none;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;            
+}
+
+.custom-review__arrows svg {
+  width: 12px;
+  height: 16px;
+  fill: #ffffff;
+  display: block;
+}
+
+.custom-review__card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 22px;
+  margin-right: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.custom-review__card:hover {
+    box-shadow: 0 28px 28px #f8518b2b;
+}
+
+.custom-review__stars {
+  color: #ffb400;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.custom-review__text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444444;
+  margin-bottom: 18px;
+}
+
+.custom-review__author {
+  display: flex;
+  align-items: center;
+}
+
+.custom-review__avatar {
+  width: 28px;
+  height: 28px;
+  background: #e6e6e6;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.custom-review__author-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #2F89C2;
+}
+
+
+@media (max-width: 768px) {
+  .custom-review__header {
+    align-items: flex-start;
+  }
+  .custom-review__heading {
+    font-size: 20px;
+  }
+  .custom-review__arrows {
+    margin-top: 15px;
+  }
+}
+
+{% endstyle %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+<section class="page-width custom-review">
+<div class="ib-custom-container">
+  <div class="custom-review__container">
+
+    <div class="custom-review__header">
+      <h2 class="custom-review__heading">
+        {{ section.settings.heading }}
+      </h2>
+
+      <div class="custom-review__arrows" id="custom-review-arrows-{{ section.id }}"></div>
+    </div>
+
+    <div class="custom-review__slider" id="custom-review-slider-{{ section.id }}">
+      {% for block in section.blocks %}
+        <div class="custom-review__card" {{ block.shopify_attributes }}>
+          <div class="custom-review__stars">
+            ★★★★★
+          </div>
+
+          <p class="custom-review__text">
+            “{{ block.settings.review_text }}”
+          </p>
+
+          <div class="custom-review__author">
+            <span class="custom-review__avatar"></span>
+            <span class="custom-review__author-name">
+              {{ block.settings.author }}
+            </span>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  $('#custom-review-slider-{{ section.id }}').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    infinite: false,
+    arrows: true,
+    dots: false,
+    appendArrows: '#custom-review-arrows-{{ section.id }}',
+
+    prevArrow: `
+      <button type="button" aria-label="Previous">
+        <svg
+            width="11"
+            height="16"
+            viewBox="0 0 11 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.09578 0.00019598C9.33204 -0.00418485 9.56381 0.0649744 9.75904 0.198104C9.95426 0.331233 10.1033 0.52175 10.1855 0.743291C10.2677 0.964831 10.279 1.20644 10.2178 1.43469C10.1567 1.66293 10.0261 1.86653 9.84413 2.0173L2.88104 7.97829L9.84843 13.9393C9.97572 14.0321 10.0824 14.1502 10.1617 14.2863C10.241 14.4224 10.2913 14.5735 10.3093 14.73C10.3273 14.8864 10.3127 15.045 10.2664 15.1955C10.22 15.3461 10.143 15.4854 10.0401 15.6047C9.93722 15.7239 9.81073 15.8206 9.66862 15.8885C9.5265 15.9565 9.37185 15.9942 9.21442 15.9994C9.05698 16.0046 8.90019 15.977 8.75392 15.9186C8.60766 15.8601 8.47511 15.7719 8.36463 15.6596L0.399441 8.85137C0.274175 8.74437 0.173594 8.61149 0.104627 8.46188C0.0356588 8.31227 -5.53131e-05 8.14948 -5.53131e-05 7.98474C-5.53131e-05 7.82 0.0356588 7.65722 0.104627 7.50761C0.173594 7.358 0.274175 7.22512 0.399441 7.11812L8.36463 0.288353C8.56648 0.108656 8.82561 0.00652844 9.09578 0.00019598Z" fill="white" />
+        </svg>
+      </button>
+    `,
+
+    nextArrow: `
+      <button type="button" aria-label="Next">
+        <svg
+            width="11"
+            height="16"
+            viewBox="0 0 11 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.22099 0.00019598C0.984737 -0.00418485 0.752961 0.0649744 0.557737 0.198104C0.362514 0.331233 0.213496 0.52175 0.131304 0.743291C0.0491124 0.964831 0.0378104 1.20644 0.0989631 1.43469C0.160116 1.66293 0.290699 1.86653 0.472643 2.0173L7.43574 7.97829L0.468342 13.9393C0.341054 14.0321 0.234383 14.1502 0.15506 14.2863C0.0757369 14.4224 0.0254846 14.5735 0.00747437 14.73C-0.0105359 14.8864 0.0040872 15.045 0.0504204 15.1955C0.0967536 15.3461 0.173791 15.4854 0.276671 15.6047C0.379551 15.7239 0.506039 15.8206 0.648153 15.8885C0.790268 15.9565 0.944922 15.9942 1.10236 15.9994C1.25979 16.0046 1.41659 15.977 1.56285 15.9186C1.70911 15.8601 1.84166 15.7719 1.95214 15.6596L9.91733 8.85137C10.0426 8.74437 10.1432 8.61149 10.2121 8.46188C10.2811 8.31227 10.3168 8.14948 10.3168 7.98474C10.3168 7.82 10.2811 7.65722 10.2121 7.50761C10.1432 7.358 10.0426 7.22512 9.91733 7.11812L1.95214 0.288353C1.75029 0.108656 1.49116 0.00652844 1.22099 0.00019598Z" fill="white" />
+        </svg>
+      </button>
+    `,
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: { slidesToShow: 3 }
+      },
+      {
+        breakpoint: 768,
+        settings: { slidesToShow: 1 }
+      }
+    ]
+  });
+});
+</script>
+
+{% schema %}
+{
+  "name": "Custom Review Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "OUR CUSTOMERS SAY THE SWEETEST THINGS"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "review_text",
+          "label": "Review Text",
+          "default": "Candy Machines are amazing!"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Author",
+          "default": "Rodger, Maplewood, MO"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Review Slider",
+      "blocks": [
+        { "type": "review" },
+        { "type": "review" },
+        { "type": "review" },
+        { "type": "review" }
+      ]
+    }
+  ]
+}
+{% endschema %}

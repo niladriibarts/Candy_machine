@@ -1,0 +1,1095 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_Eqt34R": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "container": "fixed",
+        "sort": "alphabetical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "title": "Collections",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "card_color_scheme": "",
+        "card_style": "standard",
+        "card_heading_size": "text-base",
+        "card_image_ratio": "1/1",
+        "card_image_width": "large",
+        "rounded_card_image": true,
+        "card_show_border": false,
+        "collections_per_page": 18,
+        "columns_desktop": 6,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "grid_bordered": true,
+        "columns_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "custom_content_QhRwdf": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_with_product_QVzT8P": {
+          "type": "image_card_with_product",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image_ratio": "adapt",
+            "subheading": "",
+            "heading": "Portable Speakers",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "description": "",
+            "button_label": "Shop",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "product": "",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "image_card_with_product_MzGzch": {
+          "type": "image_card_with_product",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image_ratio": "adapt",
+            "subheading": "",
+            "heading": "Sporty Headphone",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "description": "",
+            "button_label": "Shop",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "product": "",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "image_card_with_product_JYUi93": {
+          "type": "image_card_with_product",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image_ratio": "adapt",
+            "subheading": "",
+            "heading": "Modern Speaker",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "description": "",
+            "button_label": "Shop",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "product": "",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_with_product_QVzT8P",
+        "image_card_with_product_MzGzch",
+        "image_card_with_product_JYUi93"
+      ],
+      "disabled": true,
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "2xs",
+        "row_gap": "inherit",
+        "swipe_on_mobile": true,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "featured_collection_dfPHLM": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_yEBji8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "New Arrivals",
+            "show_banner": false,
+            "color_scheme": "scheme-inverse",
+            "card_link": "",
+            "image_overlay_opacity": 20,
+            "content_position": "split-bottom-button",
+            "content_alignment": "left",
+            "subheading": "Promotion",
+            "subheading_style": "",
+            "heading": "Soft Stools Design",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Shop now",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_yEBji8"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Top 20 Best Sellers",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "Shop All Products",
+        "button_link": "",
+        "button_style": "btn--plain",
+        "button_icon": "caret-right",
+        "limit": 7,
+        "columns": 5,
+        "column_gap": "2xs",
+        "row_gap": "large",
+        "enable_slider": true,
+        "content_overflow": false,
+        "navigation_position": "middle",
+        "pcard_image_ratio": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "promotion_banner_BJJVBA": {
+      "type": "promotion-banner",
+      "blocks": {
+        "group_heading_tVXJiK": {
+          "type": "group_heading",
+          "settings": {
+            "layout": "vertical",
+            "subheading": "Apply today and get",
+            "heading": "<em>20% CASH BACK</em>",
+            "highlight_style": "none",
+            "highlight_font_style": "normal",
+            "highlight_style_color": "#fec61f",
+            "highlight_text_color": "#fec61f",
+            "heading_size": "h1",
+            "badge_label": "",
+            "badge_color": "#000000"
+          }
+        },
+        "text_cWnEeg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In rewards on your first day of purchases when you are approved for the Card.</p>",
+            "text_color": "base-text"
+          }
+        },
+        "button_CggXCm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "group_heading_tVXJiK",
+        "text_cWnEeg",
+        "button_CggXCm"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".rich-text__text {max-width: 32rem;}"
+      ],
+      "name": "t:sections.promotion-banner.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-2",
+        "layout": "horizontal",
+        "content_alignment": "center",
+        "content_alignment_mobile": "left",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "custom_content_bQEDzq": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_PeRVXf": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 30,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "content_spacing": "small",
+            "content_gap": "standard",
+            "card_link": "",
+            "subheading": "Trending Now",
+            "subheading_style": "",
+            "heading": "Save 30% on Speakers",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "button_label": "Shop Now",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "show_badge": false,
+            "badge_color_scheme": "scheme-1",
+            "badge_shape": "circle",
+            "badge_position": "top-right",
+            "badge_subtext": "Save",
+            "badge_text": "",
+            "color_scheme_mobile": "scheme-inverse",
+            "show_text_below": false,
+            "content_alignment_mobile": "left",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        },
+        "collections_ExHhfU": {
+          "type": "collections",
+          "settings": {
+            "collection_list": [
+              "consumer-electronics"
+            ],
+            "product_limit": 6,
+            "columns_desktop": 3,
+            "column_gap": "2xs",
+            "row_gap": "inherit",
+            "enable_slider": true,
+            "pcard_image_ratio": "",
+            "columns_mobile": "2",
+            "swipe_on_mobile": true,
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_PeRVXf",
+        "collections_ExHhfU"
+      ],
+      "disabled": true,
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "large",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_list_with_banner_yhw9YQ": {
+      "type": "collection-list-with-banner",
+      "blocks": {
+        "featured_collection_r833hg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Earbuds"
+          }
+        },
+        "featured_collection_bwdbxR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Camera"
+          }
+        },
+        "featured_collection_Qf7mWk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Speakers"
+          }
+        },
+        "featured_collection_Gb9MFm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Portables"
+          }
+        },
+        "featured_collection_RiNJmj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Keyboards"
+          }
+        },
+        "featured_collection_7TiUkM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Laptops"
+          }
+        },
+        "featured_collection_6JEbxX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Smartwatches"
+          }
+        },
+        "featured_collection_mteiBB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Gaming"
+          }
+        },
+        "featured_collection_Vi4n8p": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Mice"
+          }
+        },
+        "featured_collection_h6PVNA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Headphones"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_r833hg",
+        "featured_collection_bwdbxR",
+        "featured_collection_Qf7mWk",
+        "featured_collection_Gb9MFm",
+        "featured_collection_RiNJmj",
+        "featured_collection_7TiUkM",
+        "featured_collection_6JEbxX",
+        "featured_collection_mteiBB",
+        "featured_collection_Vi4n8p",
+        "featured_collection_h6PVNA"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection-list-banner.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Shop by Categories",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "card_image_ratio": "1/1",
+        "rounded_card_image": true,
+        "columns_desktop": 5,
+        "grid_bordered": true,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "banner_with_tabs_qXGdVc": {
+      "type": "banner-with-tabs",
+      "blocks": {
+        "tab_gfc8eX": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Headphones",
+            "tab_icon": "headphone",
+            "card_link": "",
+            "subheading": "",
+            "heading": "Quite Collection",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "description": "<p>Designed for extended listening sessions in a classic.</p>",
+            "button_label": "Shop",
+            "button_icon": "none"
+          }
+        },
+        "tab_EHKdxk": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Phone Cases",
+            "tab_icon": "approximate-equal",
+            "card_link": "",
+            "subheading": "",
+            "heading": "Infinity Collection",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "description": "<p>Designed for extended listening sessions in a classic.</p>",
+            "button_label": "Shop",
+            "button_icon": "none"
+          }
+        },
+        "tab_ekfeT7": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Mini Speakers",
+            "tab_icon": "speaker-hifi",
+            "card_link": "",
+            "subheading": "",
+            "heading": "Infinity Collection",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "description": "<p>Designed for extended listening sessions in a classic.</p>",
+            "button_label": "Shop",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "tab_gfc8eX",
+        "tab_EHKdxk",
+        "tab_ekfeT7"
+      ],
+      "disabled": true,
+      "name": "t:sections.banner-with-tabs.presets.name",
+      "settings": {
+        "color_scheme": "scheme-inverse",
+        "desktop_height": "medium",
+        "image_overlay_opacity": 0,
+        "heading": "Limited Edition",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h5",
+        "tab_heading_size": "h1",
+        "tab_icon_size": "large",
+        "card_color_scheme": "",
+        "card_content_alignment": "left",
+        "card_image_ratio": "adapt",
+        "card_title_size": "h5",
+        "card_text_size": "text-base",
+        "card_button_style": "btn--primary",
+        "mobile_height": "adapt",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "enable_preload_image": false
+      }
+    },
+    "brand_logos_PYJ9jf": {
+      "type": "brand-logos",
+      "blocks": {
+        "logo_7p9Nx9": {
+          "type": "logo",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "logo_xXKirB": {
+          "type": "logo",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "logo_bdeYjV": {
+          "type": "logo",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "logo_YiXrKk": {
+          "type": "logo",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "logo_j8KxKC": {
+          "type": "logo",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "logo_Qbp3tb": {
+          "type": "logo",
+          "settings": {
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_7p9Nx9",
+        "logo_xXKirB",
+        "logo_bdeYjV",
+        "logo_YiXrKk",
+        "logo_j8KxKC",
+        "logo_Qbp3tb"
+      ],
+      "disabled": true,
+      "name": "t:sections.brand-logos.presets",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Our Brands",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-sm",
+        "button_label": "View All Brands",
+        "button_link": "",
+        "button_style": "btn--plain",
+        "button_icon": "caret-right",
+        "image_padding": "none",
+        "image_width": "full",
+        "columns_desktop": 6,
+        "column_gap": "none",
+        "row_gap": "inherit",
+        "grid_bordered": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_dgPtDV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kVf6qj": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Nexvo",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        },
+        "text_xtLQE8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From classic analog devices to cutting-edge smart technology, each electronic category brings unique advantages—ranging from reliability and performance to connectivity and automation.<br/><br/>Choosing electronic products goes beyond just specs; it’s about creating a seamless experience that blends functionality, innovation, and personal preference. While many appreciate sleek, minimalist designs for their efficiency, there’s timeless value in retro-inspired models that evoke nostalgia. This overview explores various electronic styles and technologies, helping you discover devices that align with both your practical needs and your lifestyle.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "5-lines",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kVf6qj",
+        "text_xtLQE8"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-11",
+        "use_color_scheme_in_container": true,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "buttons_with_icon_KCVWcP": {
+      "type": "buttons-with-icon",
+      "blocks": {
+        "button_item_kkbXt3": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "All Deals",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_dUhBEC": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Keyboards",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_QBjLW3": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Keyboard Cases",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_zPcrwV": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Headsets & Earbuds",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_PgNBca": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Workplace",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_AQEEck": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Webcams",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_TwH3Bp": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Combos",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_44CVwq": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Driving Wheels",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_dqq6JY": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Portables",
+            "button_link": "",
+            "icon": "check"
+          }
+        }
+      },
+      "block_order": [
+        "button_item_kkbXt3",
+        "button_item_dUhBEC",
+        "button_item_QBjLW3",
+        "button_item_zPcrwV",
+        "button_item_PgNBca",
+        "button_item_AQEEck",
+        "button_item_TwH3Bp",
+        "button_item_44CVwq",
+        "button_item_dqq6JY"
+      ],
+      "disabled": true,
+      "name": "t:sections.buttons-with-icon.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-12",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Explore Popular Search",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "item_alignment": "left",
+        "item_button_style": "btn--icon",
+        "item_button_font": "body",
+        "enable_slider": true,
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "multicolumn_icon_hmUXAk": {
+      "type": "multicolumn-icon",
+      "blocks": {
+        "column_9ymVK4": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "max_width": 80,
+            "max_width_mb": 60,
+            "title": "Save 10% more on online store",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "heading_font": "heading",
+            "text": "<p>Enjoy extra savings when you shop online.</p>",
+            "text_size": "text-base",
+            "button_label": "Get The Orders",
+            "button_link": "",
+            "button_style": "btn--plain",
+            "button_icon": "caret-right"
+          }
+        },
+        "column_aMxeij": {
+          "type": "column",
+          "settings": {
+            "icon": "phone",
+            "max_width": 80,
+            "max_width_mb": 60,
+            "title": "Shop with an expert, right from home",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "heading_font": "heading",
+            "text": "<p>Get personalized advice via call, chat, or video anytime.</p>",
+            "text_size": "text-base",
+            "button_label": "Shop With An Expert",
+            "button_link": "",
+            "button_style": "btn--plain",
+            "button_icon": "caret-right"
+          }
+        },
+        "column_6NHXxP": {
+          "type": "column",
+          "settings": {
+            "icon": "paperplane",
+            "max_width": 80,
+            "max_width_mb": 60,
+            "title": "Fast and convenient door to door delivery",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "heading_font": "heading",
+            "text": "<p>Get your order delivered straight to your doorstep</p>",
+            "text_size": "text-base",
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style": "btn--plain",
+            "button_icon": "caret-right"
+          }
+        },
+        "column_FKQcn9": {
+          "type": "column",
+          "settings": {
+            "icon": "map-pin",
+            "max_width": 80,
+            "max_width_mb": 60,
+            "title": "Enjoy hassle-free returns & exchanges",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "heading_font": "heading",
+            "text": "<p>Try without worry—return or exchange from</p>",
+            "text_size": "text-base",
+            "button_label": "Start a Return",
+            "button_link": "",
+            "button_style": "btn--plain",
+            "button_icon": "caret-right"
+          }
+        }
+      },
+      "block_order": [
+        "column_9ymVK4",
+        "column_aMxeij",
+        "column_6NHXxP",
+        "column_FKQcn9"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn-with-icon.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "header_layout": "standing-column",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "Information",
+        "heading": "Why Shop With Eware",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "<p>A range of sleek electronics to match your lifestyle and needs.</p>",
+        "text_size": "text-base",
+        "button_label": "Contact Us",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "enable_sticky": false,
+        "card_color_scheme": "",
+        "content_alignment": "left",
+        "image_position": "top",
+        "icon_color": "#000000",
+        "columns_desktop": 4,
+        "column_gap": "2xs",
+        "row_gap": "inherit",
+        "show_divider_col": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "multicolumn_icon_QrCDxz": {
+      "type": "multicolumn-icon",
+      "blocks": {
+        "column_MjBEfF": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "Customer Service",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "text-base",
+            "heading_font": "heading",
+            "text": "<p>Mon-Sat, 9am-6pm EST.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_eE8ipE": {
+          "type": "column",
+          "settings": {
+            "icon": "phone",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "Call Us",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "text-base",
+            "heading_font": "heading",
+            "text": "<p>+1 888-234-1234 (tool-free)</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_Fa4wrV": {
+          "type": "column",
+          "settings": {
+            "icon": "paperplane",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "Get in Touch",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "text-base",
+            "heading_font": "heading",
+            "text": "<p><a href=\"mailto:touch@nexvostore.com\" title=\"mailto:touch@nexvostore.com\">touch@nexvostore.com</a></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_8dxpxi": {
+          "type": "column",
+          "settings": {
+            "icon": "map-pin",
+            "max_width": 32,
+            "max_width_mb": 32,
+            "title": "Address",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "text-base",
+            "heading_font": "heading",
+            "text": "<p>382 NE 191st St # 87394 Miami</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "column_MjBEfF",
+        "column_eE8ipE",
+        "column_Fa4wrV",
+        "column_8dxpxi"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "enable_sticky": false,
+        "card_color_scheme": "",
+        "content_alignment": "left",
+        "image_position": "left",
+        "icon_color": "#1c52d7",
+        "columns_desktop": 4,
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "show_divider_col": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_section_divider": true,
+        "divider_width": "full",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_Eqt34R",
+    "main",
+    "custom_content_QhRwdf",
+    "featured_collection_dfPHLM",
+    "promotion_banner_BJJVBA",
+    "custom_content_bQEDzq",
+    "collection_list_with_banner_yhw9YQ",
+    "banner_with_tabs_qXGdVc",
+    "brand_logos_PYJ9jf",
+    "rich_text_dgPtDV",
+    "buttons_with_icon_KCVWcP",
+    "multicolumn_icon_hmUXAk",
+    "multicolumn_icon_QrCDxz"
+  ]
+}

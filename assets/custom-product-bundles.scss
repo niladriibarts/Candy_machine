@@ -1,0 +1,403 @@
+.section-main-product {
+
+  .product__info-wrapper {
+
+    .product__block {
+      --product-blocks-gap: 22px;
+    }
+
+    .product__block--title {
+
+      h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.22;
+        letter-spacing: -0.72px;
+        color: #2B2D42;
+      }
+    }
+
+    .product__block--price {
+
+      .f-price-item {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.28;
+        letter-spacing: -0.56px;
+        color: #2B2D42;
+      }
+    }
+
+    .product__block--description {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.55;
+      color: #000;
+    }
+
+    .shopify-app-block {
+
+      .bundles-three-head-vending-machine {
+
+        label {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1.12;
+          color: #000;
+        }
+
+        input {
+          padding: 6px 14px;
+          border: 1px solid #D1D5DB;
+          min-height: 40px;
+        }
+      }
+
+      .machine-number {
+
+        .spb-label-tooltip {
+          min-height: 40px;
+          text-align: center;
+          background-color: #2B2D42;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 1.4;
+          letter-spacing: -0.4px;
+          text-transform: uppercase;
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        span {
+          display: none;
+        }
+      }
+
+      .bundle-rack {
+
+        label.spb-productdescfont {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1.12;
+          color: #000;
+        }
+
+        span {
+          display: flex;
+          gap: 8px;
+        }
+
+        label {
+          position: relative;
+          font-size: 0;
+
+          input {
+            width: 67px;
+            height: 37px;
+            border-radius: 10px;
+            margin: 0 !important;
+            border: 2px solid #dd38a1;
+
+            &:after {
+              background: none;
+              transform: translate(-50%, -50%);
+              left: 40%;
+              top: 35%;
+              color: #DD38A1;
+              text-align: center;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              letter-spacing: -0.02em;
+            }
+
+            &[value='18"']:after {
+              content: '18"';
+            }
+
+            &[value='24"']:after {
+              content: '24"';
+            }
+
+            &[value='33"']:after {
+              content: '33"';
+            }
+
+            &[value='45"']:after {
+              content: '45"';
+            }
+
+            &[type="radio"]:checked {
+              background-color: #DD38A1;
+              border: 2px solid #DD38A1;
+
+              &:after {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+
+      .color-swatches {
+
+        label {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1.12;
+          color: #000;
+        }
+
+        span {
+          display: flex;
+          gap: 12px;
+        }
+
+        .spb-swatchlabel {
+          display: none;
+        }
+
+        .spb-productoptionswatchwrapper {
+
+          input[type="radio"]:checked {
+
+            + .spb-productoptionswatch {
+              border: 2px solid #fff;
+              box-shadow: 0px 0px 1px 2px #9CA3AF;
+            }
+          }
+        }
+
+        .spb-productoptionswatch {
+          margin: 0;
+          width: 38px;
+          height: 38px;
+          padding: 4px;
+          border-radius: 5px;
+        }
+      }
+
+      .coin-mechanism {
+
+        label {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1.12;
+          color: #000;
+        }
+
+        select {
+          padding: 6px 14px;
+          border: 1px solid #D1D5DB;
+          min-height: 40px;
+        }
+      }
+
+      .vending-wheel {
+
+        label {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1.12;
+          color: #000;
+        }
+
+        select {
+          padding: 6px 14px;
+          border: 1px solid #D1D5DB;
+          min-height: 40px;
+        }
+      }
+
+      .bundles-stand,
+      .bundle-stand {
+
+        label {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1.12;
+          color: #000;
+
+          &.spb-productoptionswatchwrapper {
+            max-height: 64px;
+            border: 1px solid #D1D5DB;
+            padding: 6px 14px;
+            background-color: #fff;
+
+            &:has(input:checked) {
+              background-color: #2B2D42;
+
+              .spb-swatchlabel {
+                color: #fff;
+              }
+            }
+          }
+        }
+
+        > span {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .spb-productoptionswatch {
+          width: 54px;
+          height: 50px;
+        }
+
+        .spb-swatchlabel {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.5;
+          color: #2B2D42;
+        }
+      }
+
+      .bundles-included,
+      .bundle-included {
+        padding-bottom: 0;
+
+        label {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1.12;
+          color: #000;
+
+          &.spb-productoptionswatchwrapper {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.12;
+            color: #000;
+            max-height: 64px;
+            border: 1px solid #D1D5DB;
+            padding: 6px 14px;
+            background-color: #fff;
+
+            &:has(input:checked) {
+              background-color: #2B2D42;
+
+              .spb-swatchlabel {
+                color: #fff;
+              }
+            }
+          }
+        }
+
+        > span {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .spb-productoptionswatch {
+          width: 54px;
+          height: 50px;
+        }
+
+        .spb-swatchlabel {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.5;
+          color: #2B2D42;
+        }
+      }
+    }
+
+    .product__block--buy_buttons {
+
+      .bundles-navigation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+
+        button {
+          flex: 1;
+          font-family: "League Spartan";
+          font-size: 14px;
+          font-weight: 600;
+          line-height: .93;
+          letter-spacing: -0.28px;
+          text-transform: uppercase;
+          color: #fff;
+          padding: 12px 16px;
+          border: 2px solid #DD38A1;
+          border-radius: 10px;
+          max-height: 37px;
+          opacity: 1;
+          background-color: #DD38A1;
+
+          &[disabled=""] {
+            border: 2px solid #E5E7EB;
+            background-color: #fff;
+            color: #E5E7EB;
+          }
+        }
+      }
+
+      .product-form__submit {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: .93;
+        letter-spacing: -0.28px;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 12px 16px;
+        border: 2px solid #dd38a1;
+        border-radius: 10px;
+        max-height: 37px;
+        background-color: #dd38a1;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .section-main-product {
+
+    .product__info-wrapper {
+
+      .product__block--title {
+
+        h1 {
+          font-size: 32px;
+          line-height: 1.25;
+          letter-spacing: -0.64px;
+        }
+      }
+
+      .product__block--price {
+
+        .f-price-item {
+          font-size: 24px;
+          line-height: 1.33;
+          letter-spacing: -0.448px;
+        }
+      }
+
+      .shopify-app-block {
+
+        .machine-number {
+
+          .spb-label-tooltip {
+            font-size: 18px;
+            line-height: 1.33;
+            letter-spacing: -0.36px;
+            min-height: 36px;
+          }
+        }
+
+        .color-swatches {
+
+          .spb-productoptionswatch {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,264 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_RzgTi9": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_T8FVji": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_T7cAUz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find the Best Option for Your Business",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_4b3ymG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Click the + symbol on the right to see more details.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_T7cAUz",
+        "text_4b3ymG"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_phAkEE": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "collapsible_item_thHKqG": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Buy Now, Pay Later options",
+            "content": "<ul><li>PayPal Later (integrated into the CandyMachines Checkout)</li><li>Apple Pay (available when checking out on an iOS device)</li><li>Klarna (integrated into the CandyMachines Checkout)</li></ul>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_9AUiPR": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Affirm",
+            "content": "<ul><li>Up to $30,000</li><li>0% APR for 6 months</li><li>6, 12, 24-month options</li><li>Integrated into the <a href=\"/\" title=\"/\">CandyMachines.com</a> checkout.</li><li>Just select AFFIRM as your payment method at checkout.</li><li>View all <a href=\"https://www.affirm.com/disclosures\">Affirm disclosures</a>.*</li></ul><p>*<em>Rates from 0–36% APR. Payment options through Affirm are subject to an eligibility check and are provided by these lending partners: </em><a href=\"http://affirm.com/lenders\" title=\"http://affirm.com/lenders\"><em><strong>affirm.com/lenders</strong></em></a><em>. Options depend on your purchase amount, and a down payment may be required. CA residents: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Financing Law license. For licenses and disclosures, see </em><a href=\"http://affirm.com/licenses\" title=\"http://affirm.com/licenses\"><em><strong>affirm.com/licenses</strong></em></a><em>. For example, a $800 purchase could be split into 12 monthly payments of $72.21 at 15% APR.</em></p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_eFemDY": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Credit Key - Payment Terms for CandyMachines.com orders",
+            "content": "<ul><li>Establish a line of credit with CandyMachines.com. </li><li>No payments for 30 days on all orders. Pay over time.   </li><li>APPLY NOW - <a href=\"https://www.creditkey.com/learn-more/candy-machines\">Candy Machines and Credit Key</a></li><li>Credit Increase Requests - <a href=\"https://www.creditkey.com/credit-key-increase-request\">Credit Key Increase Request</a></li></ul><p><strong>Requirements</strong>:</p><ul><li>FICO over 600</li><li>Annual business revenue over $40k</li></ul><p><strong>Benefits:</strong></p><ul><li>Net 30 on all orders, at 0%.Simple rates from 1-4%.</li><li>Soft credit pull - credit limits up to $50kLimits up to $2MM with underwriting</li><li>Running credit lines, no additional approvals required for multiple orders</li></ul>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_aKpRFm": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Nayax Capital",
+            "content": "<ul><li>FOR ESTABLISHED BUSINESSES WITH A MINIMUM 3-6 MONTHS OF REVENUE HISTORY.  </li><li>Easy on-ramp for existing Nayax Account Holders</li><li>Non-Nayax account holders can also apply with proof of business revenue and credit check.</li></ul><p><strong>PROGRAM DETAILS</strong></p><ul><li>Zero up front financing</li><li>Debited directly from your Nayax account</li><li>Credit based on Nayax account, avg 2-4X last 3 months revenue</li></ul><p><strong>APPLICATION & ORDER PROCESS</strong></p><ul><li>APPLY NOW:  <a href=\"/nayax-capital/\" title=\"/nayax-capital/\"><span style=\"text-decoration:underline\">Nayax Capital Inquiry</span></a></li><li>Nayax Capital Manager, David Shalev, will respond.</li><li>Work with him on placing an order with CandyMachines</li></ul>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_zzTqtz": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Western Finance Capital",
+            "content": "<ul><li>FOR ESTABLISHED BUSINESSES WITH A MINIMUM 3 Years OF REVENUE HISTORY.  </li><li><a href=\"https://westernequipmentfinance.com/sal-cifala/\">Quick online application</a></li><li>No money down</li><li>Easy one-page application</li><li>Application-only financing up to $250,000</li><li>Quick credit decisions, in as little as 30 minutes</li></ul>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_HWf4JR": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Leaf - Equipment Financing",
+            "content": "<ul><li>APPLY NOW:  <a href=\"https://pages.administration-services.com/hospitalityapplication?vendor=0011B00002GXF7l\"><span style=\"text-decoration:underline\">Hospitality Online Application (administration-services.com)</span></a></li><li>(410) 830-9497<br/>ERIC CHESSER<br/>National Account Executive</li></ul>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_pdwECb": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Advantage Plus Financing",
+            "content": "<ul><li>APPLY NOW:  <a href=\"https://www.advantageplusfinancing.com/candymachines-com/\"><span style=\"text-decoration:underline\">CandyMachines.com Financing Program (advantageplusfinancing.com)</span></a></li><li>(800) 949-7040</li></ul><p><strong>FEATURES</strong></p><ul><li>100% financing (includes shipping, taxes, and incidentals)</li><li>Loan size: $10-200k</li><li>No Prepayment penalties</li><li>2-hour turnaround</li></ul>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_c7bAc7": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "ClickLease - Equipment Financing",
+            "content": "<ul><li>APPLY NOW:  <a href=\"https://go.clicklease.com/rose-landing-pages/equipment-financing-g?utm_source=google&utm_medium=ppc&utm_campaign=branded-terms&utm_source=google&utm_medium=cpc&campaignid=17341078778&adgroupid=137823559100&keyword=clicklease&gad_source=1&gclid=CjwKCAjw26KxBhBDEiwAu6KXtwKzeNMmxlABz7Sm_goeUJsxt-XaJzgx9l9R6jwIGV8ak3QxW2atDxoCX04QAvD_BwE\"><span style=\"text-decoration:underline\">Equipment Financing (clicklease.com)</span></a></li><li>(888) 509-5592</li></ul><p><strong>FEATURES</strong></p><ul><li>All credit scores welcome</li><li>Pick your payment</li><li>Instant approvals up to $20,000</li></ul>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_item_thHKqG",
+        "collapsible_item_9AUiPR",
+        "collapsible_item_eFemDY",
+        "collapsible_item_aKpRFm",
+        "collapsible_item_zzTqtz",
+        "collapsible_item_HWf4JR",
+        "collapsible_item_pdwECb",
+        "collapsible_item_c7bAc7"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "small",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "scheme-inverse",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 32,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "contact_form_MeiLnM": {
+      "type": "contact-form",
+      "blocks": {
+        "custom_field_4fVEpx": {
+          "type": "custom_field",
+          "settings": {
+            "field_type": "phone",
+            "heading": "Phone",
+            "placeholder": "",
+            "required": false,
+            "full_width": true,
+            "select_options": "",
+            "checkbox_checked_value": "Yes",
+            "checkbox_uncheck_value": "No",
+            "radio_options": ""
+          }
+        }
+      },
+      "block_order": [
+        "custom_field_4fVEpx"
+      ],
+      "custom_css": [
+        "h2{text-align: left;}"
+      ],
+      "name": "t:sections.contact-form.name",
+      "settings": {
+        "container": "fixed",
+        "section_color_scheme": "",
+        "heading": "Questions? Let us know how we can help!",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_RzgTi9",
+    "main",
+    "rich_text_T8FVji",
+    "collapsible_tabs_phAkEE",
+    "contact_form_MeiLnM"
+  ]
+}

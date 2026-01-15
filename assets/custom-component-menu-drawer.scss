@@ -1,0 +1,24 @@
+.menu-drawer {
+
+  .menu-drawer__item-link {
+
+    span {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 600;
+    }
+  }
+
+  .menu-drawer__footer {
+    display: none;
+  }
+
+  .menu-drawer__menus {
+
+    ul:first-child {
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(0, 0, 0, .2);
+      padding-bottom: 30px;
+      flex-grow: 0;
+    }
+  }
+}

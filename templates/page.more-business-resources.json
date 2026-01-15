@@ -1,0 +1,387 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_geM4e9": {
+      "type": "breadcrumbs",
+      "name": "t:sections.breadcrumbs.name",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_overlay_G7AHLB": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_PLiniX": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "More Business Resources"
+          }
+        },
+        "heading_4G4MYn": {
+          "type": "heading",
+          "settings": {
+            "heading": "More Business Resources",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        },
+        "text_JzeYeL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. <br/>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PLiniX",
+        "heading_4G4MYn",
+        "text_JzeYeL"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "fixed",
+        "image": "shopify://shop_images/More-Business-Resources-Banner.png",
+        "desktop_height": "adapt",
+        "overlay_opacity": 0,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "image_mobile": "shopify://shop_images/Mobile-Hero-Content.png",
+        "mobile_height": "medium",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "enable_preload_image": false
+      }
+    },
+    "rich_text_ez4d3Y": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mUKK9L": {
+          "type": "heading",
+          "settings": {
+            "heading": "More Business Resources Header",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_P7XYgR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Commodo dui non nibh molestie ut laoreet enim. Etiam nisi quam nisi quam turpis scelerisque pellentesque congue fermentum. Nibh pulvinar suspendisse vestibulum eget dictum iaculis sit blandit leo. Nascetur pretium quam mauris diam sit sollicitudin massa id. Nunc ipsum lectus egestas arcu.<br/><br/>Commodo molestie tempor elit vitae ut at commodo facilisis. Urna feugiat urna posuere sagittis sed vitae. Aliquam sollicitudin ut consectetur purus dignissim egestas faucibus. Ornare in etiam habitant auctor aliquam blandit diam dignissim. Bibendum ac rhoncus malesuada non nec sapien nisi. In hendrerit ipsum ut porta felis condimentum mauris ac consequat. Sit integer sed sagittis aliquet lobortis interdum. Tortor posuere diam tortor nisl nec.<br/><br/>Non amet cursus arcu rutrum cursus ipsum. Non id dictum a sed tristique diam. Amet porttitor ornare ligula varius. Est tellus amet ultricies viverra laoreet commodo auctor eu. Amet semper nec in ut ullamcorper urna non blandit. Ac pellentesque lorem diam venenatis turpis lectus.</p>",
+            "text_size": "text-inherit",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mUKK9L",
+        "text_P7XYgR"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "grid_banner_gWkYEY": {
+      "type": "grid-banner",
+      "blocks": {
+        "banner_card_Bix6Di": {
+          "type": "banner-card",
+          "settings": {
+            "color_scheme": "",
+            "image_overlay_opacity": 15,
+            "column_span": 2,
+            "row_span": 1,
+            "content_spacing": "medium",
+            "content_gap": "standard",
+            "content_position": "bottom-left",
+            "content_alignment": "left",
+            "content_position_mobile": "middle-center",
+            "content_alignment_mobile": "center",
+            "card_link": "shopify://pages/entrepreneur-starter-kit",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Entrepreneur Starter Kit",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Commodo dui non nibh molestie ut laoreet enim.</p>",
+            "text_size": "text-base",
+            "button_label": "Learn More",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "button_size": "btn--medium",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        },
+        "banner_card_yfFVTg": {
+          "type": "banner-card",
+          "settings": {
+            "color_scheme": "",
+            "image_overlay_opacity": 15,
+            "column_span": 2,
+            "row_span": 1,
+            "content_spacing": "medium",
+            "content_gap": "standard",
+            "content_position": "bottom-left",
+            "content_alignment": "left",
+            "content_position_mobile": "middle-center",
+            "content_alignment_mobile": "center",
+            "card_link": "shopify://pages/startup-calculator",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Startup Calculator",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Commodo dui non nibh molestie ut laoreet enim.</p>",
+            "text_size": "text-base",
+            "button_label": "Learn More",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "button_size": "btn--medium",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "banner_card_Bix6Di",
+        "banner_card_yfFVTg"
+      ],
+      "disabled": true,
+      "name": "t:sections.grid-banner.presets__1.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "description_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "columns": 4,
+        "banner_height": "medium",
+        "gap": "small",
+        "enable_swiper_mobile": false,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "grid_banner_bX9mig": {
+      "type": "grid-banner",
+      "blocks": {
+        "banner_card_9rxK9R": {
+          "type": "banner-card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/News-_-Press-Releases.png",
+            "image_overlay_opacity": 0,
+            "column_span": 2,
+            "row_span": 2,
+            "content_spacing": "small",
+            "content_gap": "standard",
+            "content_position": "bottom-left",
+            "content_alignment": "left",
+            "content_position_mobile": "middle-center",
+            "content_alignment_mobile": "left",
+            "card_link": "shopify://blogs/news",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "News & Press Releases",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Magna eros nullam scelerisque sagittis.</p>",
+            "text_size": "text-base",
+            "button_label": "Learn More",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "button_size": "btn--medium",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        },
+        "banner_card_eygjwU": {
+          "type": "banner-card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/Product-Knowledge-Base.png",
+            "image_overlay_opacity": 0,
+            "column_span": 2,
+            "row_span": 1,
+            "content_spacing": "extra-small",
+            "content_gap": "tight",
+            "content_position": "middle-left",
+            "content_alignment": "left",
+            "content_position_mobile": "middle-center",
+            "content_alignment_mobile": "center",
+            "card_link": "https://candymachines-d8ytzgnkaaj.gorgias.help/en-US/articles/333693-d2b07deea5b044adb6228433956e519b",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Product Knowledge Base",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Magna eros nullam scelerisque sagittis.</p>",
+            "text_size": "text-lg",
+            "button_label": "Learn More",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "button_size": "btn--medium",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        },
+        "banner_card_xU8dKt": {
+          "type": "banner-card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/Candy_Machine_Blog.png",
+            "image_overlay_opacity": 0,
+            "column_span": 2,
+            "row_span": 1,
+            "content_spacing": "extra-small",
+            "content_gap": "tight",
+            "content_position": "middle-left",
+            "content_alignment": "left",
+            "content_position_mobile": "middle-center",
+            "content_alignment_mobile": "center",
+            "card_link": "shopify://blogs/vend-talk",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Candy Machines Blog",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Magna eros nullam scelerisque sagittis.</p>",
+            "text_size": "text-base",
+            "button_label": "Learn More",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "button_size": "btn--medium",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "banner_card_9rxK9R",
+        "banner_card_eygjwU",
+        "banner_card_xU8dKt"
+      ],
+      "name": "t:sections.grid-banner.presets__1.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "description_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "columns": 4,
+        "banner_height": "small",
+        "gap": "small",
+        "enable_swiper_mobile": false,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_geM4e9",
+    "main",
+    "image_with_text_overlay_G7AHLB",
+    "rich_text_ez4d3Y",
+    "grid_banner_gWkYEY",
+    "grid_banner_bX9mig"
+  ]
+}

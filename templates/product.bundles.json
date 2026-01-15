@@ -1,0 +1,295 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [
+        "@media (min-width: 1280px) {.breadcrumbs {padding-inline: 5rem; }}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "infinite_options_app_block_V6any7": {
+          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "description",
+        "infinite_options_app_block_V6any7",
+        "buy_buttons"
+      ],
+      "custom_css": [
+        "@media (min-width: 1280px) {.product {padding-inline: 5rem; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "use_color_scheme_in_container": false,
+        "enable_sticky_info": true,
+        "media_size": "large",
+        "gallery_layout": "carousel",
+        "mobile_thumbnails": "show",
+        "show_image_border": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "testimonials_dDwipg": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_cHJmMJ": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "heading": "Testimonials",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Magna eros nullam scelerisque sagittis.</p>",
+            "author": "Name",
+            "bio": "Position, Company Name",
+            "product": ""
+          }
+        },
+        "testimonial_8mmYFC": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "heading": "Testimonials",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Magna eros nullam scelerisque sagittis.</p>",
+            "author": "Name",
+            "bio": "Position, Company Name",
+            "product": ""
+          }
+        },
+        "testimonial_ECWM83": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "heading": "Testimonials",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Magna eros nullam scelerisque sagittis.</p>",
+            "author": "Name",
+            "bio": "Position, Company Name",
+            "product": ""
+          }
+        },
+        "testimonial_n6R9fW": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "heading": "Testimonials",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Magna eros nullam scelerisque sagittis.</p>",
+            "author": "Name",
+            "bio": "Position, Company Name",
+            "product": ""
+          }
+        },
+        "testimonial_tTTVYi": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "heading": "Testimonials",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Magna eros nullam scelerisque sagittis.</p>",
+            "author": "Name",
+            "bio": "Position, Company Name",
+            "product": ""
+          }
+        },
+        "testimonial_thPFdp": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "heading": "Testimonials",
+            "text": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "bio": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_cHJmMJ",
+        "testimonial_8mmYFC",
+        "testimonial_ECWM83",
+        "testimonial_n6R9fW",
+        "testimonial_tTTVYi",
+        "testimonial_thPFdp"
+      ],
+      "name": "t:sections.testimonials.name",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Building Custom Machines",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "layout": "focused",
+        "card_color_scheme": "",
+        "card_content_color_scheme": "",
+        "card_image_ratio": "adapt",
+        "card_heading_size": "h4",
+        "card_text_size": "h1",
+        "author_info_layout": "vertical",
+        "card_trigger_behavior": "click",
+        "show_image": false,
+        "show_author_image": false,
+        "columns_desktop": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_slider": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_progress_bar": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_XUNPzh": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "collapsible_item_d9jNyx": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "How long does it take to process an order?",
+            "content": "<p>Orders are typically processed within 1–2 business days. You will receive a confirmation email with tracking details once your order has been shipped. Please note that processing times may be slightly longer during high-demand periods or sales events.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": true,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_rDdTc7": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Do you ship internationally?",
+            "content": "<p>Yes, we offer international shipping to most countries. Shipping rates and delivery times vary depending on the destination. Any applicable customs duties or taxes will be the responsibility of the recipient.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_na7wJy": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "What is your return policy?",
+            "content": "<p>We accept returns within 30 days of delivery. To be eligible, items must be unused, in their original packaging, and accompanied by proof of purchase. If the item is faulty or damaged, we will cover the return shipping and provide a replacement or full refund.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_BDtwWQ": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "What are your sizing options?",
+            "content": "<p>This product does not require sizing. However, if you’re shopping for wearables or accessories on our store, detailed size charts are available on each product page to help you find the perfect fit.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_item_d9jNyx",
+        "collapsible_item_rDdTc7",
+        "collapsible_item_na7wJy",
+        "collapsible_item_BDtwWQ"
+      ],
+      "custom_css": [
+        ".section__header--text {max-width: 28rem;}"
+      ],
+      "name": "t:sections.collapsible-tabs.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "standing-column",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "FAQ",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "<p>Lorem ipsum dolor sit amet consectetur. Magna eros nullam scelerisque sagittis.</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "extra-large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "scheme-12",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "testimonials_dDwipg",
+    "collapsible_tabs_XUNPzh"
+  ]
+}

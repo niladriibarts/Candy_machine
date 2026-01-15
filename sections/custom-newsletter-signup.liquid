@@ -1,0 +1,181 @@
+{%  style %}
+
+.custom-newsletter {
+  padding: 80px 20px;
+  background: linear-gradient(
+    135deg,
+    #ff4fa3 0%,
+    #9b5cff 50%,
+    #1fa2ff 100%
+  );
+  text-align: center;
+}
+
+.custom-newsletter__container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.custom-newsletter__heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.custom-newsletter__subheading {
+  color: rgba(255,255,255,0.9);
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.custom-newsletter__form {
+  width: 100%;
+}
+
+.custom-newsletter__input-wrap {
+  display: flex;
+  background: #ffffff;
+  border-radius: 50px;
+  overflow: hidden;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.custom-newsletter__input {
+  flex: 1;
+  border: none;
+  padding: 14px 20px;
+  font-size: 14px;
+  outline: none;
+}
+
+.custom-newsletter__input::placeholder {
+  color: #888;
+}
+
+.custom-newsletter__button {
+  background: #ff4fa3;
+  color: #ffffff;
+  border: none;
+  padding: 0 28px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 50px 0 0 50px;
+}
+
+.custom-newsletter__button:hover {
+  opacity: 0.9;
+}
+
+.custom-newsletter__success {
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.custom-newsletter__error {
+  margin-top: 15px;
+  color: #ffdede;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .custom-newsletter__heading {
+    font-size: 24px;
+  }
+
+  .custom-newsletter__button {
+    width: 40%;
+    padding: 14px;
+    font-size: 10px;
+  }
+}
+
+{% endstyle %}
+
+<section class="page-width custom-newsletter">
+<div class="ib-custom-container">
+  <div class="custom-newsletter__container">
+
+    <h2 class="custom-newsletter__heading">
+      {{ section.settings.heading }}
+    </h2>
+
+    <p class="custom-newsletter__subheading">
+      {{ section.settings.subheading }}
+    </p>
+
+    {% form 'customer', class: 'custom-newsletter__form' %}
+      <input type="hidden" name="contact[tags]" value="newsletter">
+
+      <div class="custom-newsletter__input-wrap">
+        <input
+          type="email"
+          name="contact[email]"
+          class="custom-newsletter__input"
+          placeholder="{{ section.settings.placeholder }}"
+          required
+        >
+
+        <button type="submit" class="custom-newsletter__button">
+          {{ section.settings.button_text }}
+        </button>
+      </div>
+
+      {% if form.posted_successfully? %}
+        <p class="custom-newsletter__success">
+          Thanks for subscribing!
+        </p>
+      {% endif %}
+
+      {% if form.errors %}
+        <p class="custom-newsletter__error">
+          Please enter a valid email address.
+        </p>
+      {% endif %}
+    {% endform %}
+
+  </div>
+</div>
+</section>
+
+
+{% schema %}
+{
+  "name": "Custom Newsletter Signup",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "SIGN UP FOR OUR NEWSLETTER"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Get the latest updates on new products and upcoming sales"
+    },
+    {
+      "type": "text",
+      "id": "placeholder",
+      "label": "Email Placeholder",
+      "default": "Enter Your Email Address"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Subscribe"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Newsletter Signup"
+    }
+  ]
+}
+{% endschema %}

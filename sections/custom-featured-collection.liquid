@@ -1,0 +1,156 @@
+{% liquid
+  assign collection = collections[section.settings.collection]
+  assign product_limit = section.settings.products_to_show
+  assign product_count = collection.products_count
+%}
+
+{% style %}
+
+.featured-collection {
+  padding: 60px 0;
+}
+
+.featured-collection__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.featured-collection__heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.featured-collection__view-all {
+    padding: 8px 38px;
+    padding-top: 12px;
+    border: none;
+    background: #f93db6;
+    color: #fff;
+    border-radius: 60px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.featured-collection__view-all:hover {
+    border: 1px solid #f93db6;
+    background: #fff;
+    color: #f93db6;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 1024px) {
+  .featured-collection__heading h2 {
+    font-size: 32px;
+  }
+
+  .featured-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .featured-collection {
+    padding: 30px 0;
+  }
+  .featured-collection__header {
+    flex-direction: column;
+    /* gap: 16px;
+    align-items: flex-start; */
+  }
+
+  .featured-collection__heading h2 {
+    font-size: 26px;
+  }
+
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+}
+{% endstyle %}
+
+<section class="featured-collection">
+  <div class="page-width">
+  <div class="ib-custom-container">
+    {% if section.settings.heading != blank %}
+      <div class="featured-collection__header">
+        <div class="featured-collection__heading">
+          <h2>{{ section.settings.heading }}</h2>
+        </div>
+
+        {% if product_count > 4 %}
+          <a
+            href="{{ collection.url }}"
+            class="featured-collection__view-all"
+          >
+            View all
+          </a>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if collection != blank and collection.products_count > 0 %}
+      <div class="featured-grid">
+        {% for product in collection.products limit: product_limit %}
+          {% render 'custom-card-product',
+            product: product,
+            section_id: section.id,
+            section_index: section.index,
+            index: forloop.index,
+            image_sizes: '(max-width: 768px) 100vw, 300px'
+          %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Featured Coll",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Select collection"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Featured Products"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "label": "Products to show",
+      "min": 4,
+      "max": 12,
+      "step": 1,
+      "default": 4
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Featured Coll"
+    }
+  ]
+}
+{% endschema %}

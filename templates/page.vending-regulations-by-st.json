@@ -1,0 +1,190 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_RzgTi9": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_jCHQj3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dYUFqX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vending Regulations by State",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_BWDney": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Like any business, most states require vending route operators to obtain proper permits and licenses required by their local ordinances. <a href=\"#\" title=\"#\">When planning to start a vending machine business</a>, it’s important to check your local ordinances. Many times there are different regulations based on what products you’re vending. Vending milk products, <a href=\"/collections/vending-machines\" title=\"Vending Machines\">soda, snacks,</a> <a href=\"/collections/gumballs\" title=\"Gumballs\">gumballs</a>, <a href=\"/collections/bulk-candy\" title=\"Bulk Candy\">candy</a>, <a href=\"#\" title=\"#\">vending machine toys or capsules</a>, or even tobacco products may have different regulations. Also keep mind that the location of your vending machines may impact the rules and regulations of your local ordinances. As an example, vending machines placed in schools often times restrict the type of items you can vend. Be sure to see our guide on <a href=\"#\" title=\"#\">Running a Successful Vending Machine Business</a>.<br/><br/></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dYUFqX",
+        "text_BWDney"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_content_bzPeHN": {
+      "type": "custom-content",
+      "blocks": {
+        "text_zcyAC4": {
+          "type": "text",
+          "settings": {
+            "content_alignment": "left",
+            "subheading": "",
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "description": "<ul><li><a href=\"https://www.revenue.alabama.gov/businesses/\" target=\"_blank\">Alabama</a></li><li><a href=\"http://dec.alaska.gov/eh/fss/food/carts.html\" target=\"_blank\">Alaska</a></li><li><a href=\"https://www.phoenix.gov/cityclerk/services/licensing/regbusinfo/vending\" target=\"_blank\">Arizona</a></li><li><a href=\"https://www.dfa.arkansas.gov/excise-tax/miscellaneous-tax/vending/\" target=\"_blank\">Arkansas</a></li><li><a href=\"https://www.ca.gov/departments/287/services/25/\" target=\"_blank\">California</a></li><li><a href=\"https://tax.colorado.gov/sites/tax/files/Sales59.pdf\" target=\"_blank\">Colorado</a></li><li><a href=\"http://www.cga.ct.gov/2008/rpt/2008-R-0650.htm\" target=\"_blank\">Connecticut</a></li><li><a href=\"https://revenuefiles.delaware.gov/docs/vending.pdf\" target=\"_blank\">Delaware</a></li><li><a href=\"http://dor.myflorida.com/Forms_library/current/gt800041.pdf\" target=\"_blank\">Florida</a></li><li><a href=\"https://rules.sos.ga.gov/gac/560-8-5\" target=\"_blank\">Georgia</a></li><li><a href=\"https://rules.sos.ga.gov/gac/560-8-5\" target=\"_blank\">Hawaii</a></li><li><a href=\"https://tax.idaho.gov/taxes/taxes-on-sales/amuse/\" target=\"_blank\">Idaho</a></li><li><a href=\"http://www.revenue.state.il.us/taxforms/Sales/STS-80.pdf\" target=\"_blank\">Illinois</a></li><li><a href=\"https://www.in.gov/dhs/fire-and-building-safety/code-enforcement/application-for-amusement-and-entertainment-permit/#:~:text=Apply%20for%20an%20Amusement%20and,Permits%20must%20be%20renewed%20annually\" target=\"_blank\">Indiana</a></li><li><a href=\"https://dia.iowa.gov/sites/default/files/documents/2016/01/vending_machine_application_2014.pdf\" target=\"_blank\">Iowa</a></li><li><a href=\"https://www.agriculture.ks.gov/divisions-programs/food-safety-and-lodging/starting-a-food-business\" target=\"_blank\">Kansas</a></li><li><a href=\"https://revenue.ky.gov/DOR%20Training%20Materials/103%20KAR%2027.180.%20Vending%20machines.pdf\" target=\"_blank\">Kentucky</a></li><li><a href=\"https://legis.la.gov/legis/law.aspx?d=84840\" target=\"_blank\">Louisiana</a></li><li><a href=\"https://www.maine.gov/dacf/qar/permits_and_licenses/index.shtml\" target=\"_blank\">Maine</a></li><li><a href=\"https://www.maine.gov/dacf/qar/permits_and_licenses/index.shtml\" target=\"_blank\">Maryland</a></li><li><a href=\"https://www.mass.gov/info-details/starting-a-business-in-massachusetts\" target=\"_blank\">Massachusetts</a></li><li><a href=\"https://www.mass.gov/info-details/starting-a-business-in-massachusetts\" target=\"_blank\">Michigan</a></li><li><a href=\"https://www.revisor.mn.gov/rules/8130.2500/\" target=\"_blank\">Minnesota</a></li><li><a href=\"https://www.dor.ms.gov/sites/default/files/Business/Part%20IV%20Sales%20and%20Use%20Tax.pdf\" target=\"_blank\">Mississippi</a></li><li><a href=\"https://www.stlouis-mo.gov/government/departments/license/business-license-info/gbl/Vending-Amusement-and-Service-Machine-Business-License-Process.cfm\" target=\"_blank\">Missouri</a></li></ul>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "text_Ybgjzj": {
+          "type": "text",
+          "settings": {
+            "content_alignment": "left",
+            "subheading": "",
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "description": "<ul><li><a href=\"https://mtrevenue.gov/liquor-tobacco/liquor-licenses/alcohol-manufacturers/distilleries/\" target=\"_blank\">Montana</a></li><li><a href=\"http://www.revenue.nebraska.gov/business/bus_regist.html\" target=\"_blank\">Nebraska</a></li><li><a href=\"https://www.nvsilverflume.gov/home\" target=\"_blank\">Nevada</a> </li><li><a href=\"http://www.pewtrusts.org/~/media/assets/2015/01/state-fact-sheets/kshf_appendix_newhampshire_v4.pdf?la=en\" target=\"_blank\">New Hampshire</a></li><li><a href=\"http://www.state.nj.us/treasury/taxation/pdf/pubs/sales/anj16.pdf\" target=\"_blank\">New Jersey</a></li><li><a href=\"https://biz.nm.gov/business-navigator/licenses-and-permits/\" target=\"_blank\">New Mexico</a></li><li><a href=\"https://biz.nm.gov/business-navigator/licenses-and-permits/\" target=\"_blank\">New York</a></li><li><a href=\"https://edpnc.com/get-business-support/start-a-business/\" target=\"_blank\">North Carolina</a></li><li><a href=\"https://edpnc.com/get-business-support/start-a-business/\" target=\"_blank\">North Dakota</a></li><li><a href=\"http://codes.ohio.gov/orc/3717.42\" target=\"_blank\">Ohio</a></li><li><a href=\"https://www.ok.gov/tax/documents/Chapter%2025%20Coin%20Operated%20Vending%20Devices.pdf\" target=\"_blank\">Oklahoma</a></li><li><a href=\"http://www.oregonlaws.org/ors/624.320\" target=\"_blank\">Oregon</a></li><li><a href=\"http://www.pacode.com/secure/data/061/chapter31/s31.28.html\" target=\"_blank\">Pennsylvania</a></li><li><a href=\"http://sos.ri.gov/documents/archives/regdocs/released/pdf/DOH/DOH_172_.pdf\" target=\"_blank\">Rhode Island</a></li><li><a href=\"http://www.sc.gov/business/Pages/licensePermitsAndRegistration.aspx\" target=\"_blank\">South Carolina</a></li><li><a href=\"https://apps.sd.gov/rv23cedar/main/main.aspx\" target=\"_blank\">South Dakota</a></li><li><a href=\"http://www.knoxvilletn.gov/UserFiles/Servers/Server_109478/File/Finance/permit_transvendorlicense.pdf\" target=\"_blank\">Tennessee</a></li><li><a href=\"https://www.comptroller.texas.gov/taxes/coin-op/\" target=\"_blank\">Texas</a></li><li><a href=\"https://dopl.utah.gov/\" target=\"_blank\">Utah</a></li><li><a href=\"http://healthvermont.gov/enviro/food_lodge/food_lodge_guide.aspx\" target=\"_blank\">Vermont</a></li><li><a href=\"http://www.tax.virginia.gov/content/sales-and-use-tax\" target=\"_blank\">Virginia</a></li><li><a href=\"http://apps.leg.wa.gov/wac/default.aspx?cite=458-20-187\" target=\"_blank\">Washington</a></li><li><a href=\"https://tax.wv.gov/Documents/TSD/tsd405.pdf\" target=\"_blank\">West Virginia </a></li><li><a href=\"https://tax.wv.gov/Documents/TSD/tsd405.pdf\" target=\"_blank\">Wisconsin </a></li><li><a href=\"https://sos.wyo.gov/business/startabusiness.aspx\" target=\"_blank\">Wyoming</a></li></ul>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_zcyAC4",
+        "text_Ybgjzj"
+      ],
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_J8nU9a": {
+      "type": "rich-text",
+      "blocks": {
+        "text_aYGrbd": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://sos.wyo.gov/business/startabusiness.aspx\" target=\"_blank\">This information is for reference only. Please check your local ordinances to make sure you’re following the most up to date regulations.   </a></p><ul><li>Florida</li></ul><p>In order for people to be able to start their vending business, they are required to have a license first. This is extremely important especially since they are selling goods to consumers. Without the license, there is a tendency that the business would shut down and that the person responsible for it need to pay a fine.</p><ul><li>California</li></ul><p>The operators of vending machines needs to acquire a seller’s permits. When a person acquires one permit, they are allows to have as many machines as they wanted. However, there are certain exemptions to it. For example, if the products offered by the vending machine are 15 cents or less, then they are not required to have a permit. Moreover, there are also non-taxable vending machine sales and so, such operators do not need to have it as well.</p><ul><li>Arizona</li></ul><p>The vending regulations of Arizona has become tighter due to the reason that the federal government aims to reduce the cases of childhood obesity. Thus, they have prohibited the selling of FMNV or the foods of foods of minimal nutritional value. They have also restricted the access of the students to vending during meal times. Moreover, the vending in schools are limited to those that only displays or offer 100% fruit juice and water.</p><ul><li>Colorado</li></ul><p>The owners, lessors as well as operators of vending machines who have the control over the receipts from the machine are required to obtain a sales tax license. A single license is required to run vending machines no matter how many they are and regardless of where in Colorado they are situated. Each vending machine should also have a decal.</p><ul><li>Massachusetts</li></ul><p>According to the law, no person is allowed to operate a vending machine without a license that is issued by the commissioner. The form that would be approved by the commissioner should also contain the signature of the applicant or applicants if there are many. There is a need to know that the license if non-transferable. Moreover, a commissioner will also approve a label that contains the license number of the operator and this label should be displayed in each location of the machine.</p><p>The things listed above are just some of the vending regulations by state. Knowing such regulations are important, especially if you are planning to operate a vending machine in those states. That way, you would be able to run your business legally.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_aYGrbd"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 30,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_RzgTi9",
+    "main",
+    "rich_text_jCHQj3",
+    "custom_content_bzPeHN",
+    "rich_text_J8nU9a"
+  ]
+}

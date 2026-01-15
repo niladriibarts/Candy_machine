@@ -1,0 +1,288 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_Gxg9wp": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_overlay_cjmicH": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_H4YMAE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Payment Acceptors",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_3aQtRN": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. <br/>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_H4YMAE",
+        "text_3aQtRN"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "fixed",
+        "image": "shopify://shop_images/payment-acceptors-banner.png",
+        "desktop_height": "adapt",
+        "overlay_opacity": 0,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "image_mobile": "shopify://shop_images/payment-acceptors.png",
+        "mobile_height": "small",
+        "content_position_mobile": "top-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "enable_preload_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "image_card_mwkyJy": {
+          "type": "image_card",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image_position": 1,
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 10,
+            "content_position": "split-bottom-button",
+            "content_alignment": "left",
+            "content_spacing": "extra-small",
+            "content_gap": "fitted",
+            "card_link": "",
+            "subheading": "Promotion",
+            "subheading_style": "",
+            "heading": "Upgrade Your Watch",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Shop Now",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "order_first": false,
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_card_mwkyJy"
+      ],
+      "custom_css": [
+        ".btn--icon,.btn--icon-circle,.facet-short select {border-radius: 30px;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-12",
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "pagination": "number",
+        "enable_filtering": true,
+        "enable_color_swatch": true,
+        "filter_type": "vertical",
+        "expand_filter_groups": "Availability, Price, Color, Size, Category,Brand,Product type",
+        "enable_sorting": true,
+        "enable_layout_switching": true,
+        "columns_mobile": "2",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_XxqgNR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EHMRJG": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Nexvo",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        },
+        "text_VjHVHz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From classic analog devices to cutting-edge smart technology, each electronic category brings unique advantages—ranging from reliability and performance to connectivity and automation.<br/><br/>Choosing electronic products goes beyond just specs; it’s about creating a seamless experience that blends functionality, innovation, and personal preference. While many appreciate sleek, minimalist designs for their efficiency, there’s timeless value in retro-inspired models that evoke nostalgia. This overview explores various electronic styles and technologies, helping you discover devices that align with both your practical needs and your lifestyle.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "5-lines",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EHMRJG",
+        "text_VjHVHz"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-11",
+        "use_color_scheme_in_container": true,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "text_alignment": "left",
+        "show_collection_image": false,
+        "image_overlay_opacity": 0,
+        "image_position": "right",
+        "image_height": "extra-small",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "image_height_mobile": "auto",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "buttons_with_icon_9LDL93": {
+      "type": "buttons-with-icon",
+      "blocks": {
+        "button_item_P3ReeB": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "All Deals",
+            "button_link": "shopify://collections",
+            "icon": "none"
+          }
+        },
+        "button_item_LHDqUc": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Claw Machines",
+            "button_link": "shopify://collections/claw-machines",
+            "icon": "none"
+          }
+        },
+        "button_item_hLnGMD": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Bulk Vending",
+            "button_link": "shopify://collections/bulk-vending-machines",
+            "icon": "none"
+          }
+        },
+        "button_item_z7LcT9": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Vending Machines",
+            "button_link": "shopify://collections/vending-machines",
+            "icon": "none"
+          }
+        },
+        "button_item_8caTmG": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Gumballs",
+            "button_link": "shopify://collections/gumballs",
+            "icon": "none"
+          }
+        },
+        "button_item_jN9JAn": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Toys & Prizes",
+            "button_link": "shopify://collections/toys-prizes",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "button_item_P3ReeB",
+        "button_item_LHDqUc",
+        "button_item_hLnGMD",
+        "button_item_z7LcT9",
+        "button_item_8caTmG",
+        "button_item_jN9JAn"
+      ],
+      "custom_css": [
+        ".btn--icon,.btn--icon-circle,.facet-short select {border-radius: 30px;}"
+      ],
+      "name": "t:sections.buttons-with-icon.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Explore Popular Search",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "item_alignment": "left",
+        "item_button_style": "btn--icon",
+        "item_button_font": "body",
+        "enable_slider": true,
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_Gxg9wp",
+    "image_with_text_overlay_cjmicH",
+    "product-grid",
+    "rich_text_XxqgNR",
+    "banner",
+    "buttons_with_icon_9LDL93"
+  ]
+}

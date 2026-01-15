@@ -1,0 +1,154 @@
+{% style %}
+  .custom-blog-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .blog-heading {
+    width: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    color: #323232;
+    line-height: 1.1;
+    letter-spacing: -2px;
+  }
+
+  .blog-more-btn {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background: #F93CB7;
+    padding: 20px 30px;
+    border-radius: 16px;
+    line-height: 15px;
+  }
+  
+  .blog-more-btn:hover {
+    border: 0.5px solid #F93CB7;
+    background: #fff;
+    color: #F93CB7;
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  @media (max-width: 1024px) {
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .blog-grid {
+      display: block;
+    }
+    .custom-blog-card {
+      margin-bottom: 24px;
+    }
+  }
+
+{% endstyle %}
+
+<section id="MainCustomBlogFeatured-{{ section.id }}" class="custom-blog-section page-width">
+<div class="ib-custom-container">
+
+  <div class="blog-header">
+    <h2 class="blog-heading">{{ section.settings.heading }}</h2>
+
+    <a class="blog-more-btn" href="{{ section.settings.more_link | default: '/blogs/news' }}">
+      {{ section.settings.more_text }}
+    </a>
+  </div>
+
+  <div class="blog-grid">
+    {% if section.blocks.size > 0 %}
+
+      {% for block in section.blocks %}
+        {% assign article = articles[block.settings.article] %}
+        {% if article %}
+          {% render 'custom-blog-card'
+            , article: article %}
+        {% endif %}
+      {% endfor %}
+
+    {% else %}
+
+      {% assign fallback_blog = blogs.news %}
+      {% assign selected_blog = blogs[section.settings.blog_handle] %}
+      {% assign blog_obj = selected_blog | default: fallback_blog %}
+
+      {% if blog_obj %}
+        {% assign random_articles = blog_obj.articles %}
+        {% for article in random_articles limit: 4 %}
+          
+            {% render 'custom-blog-card', article: article %}
+          
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+  </div>
+</div>
+</section>
+
+{% schema %}
+  {
+    "name": "Custom featured blog",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Latest News"
+      }, {
+        "type": "url",
+        "id": "more_link",
+        "label": "More Button Link"
+      }, {
+        "type": "text",
+        "id": "more_text",
+        "label": "More Button Text",
+        "default": "Learn More"
+      }, {
+        "type": "blog",
+        "id": "blog_handle",
+        "label": "Select Blog (for random articles)"
+      }
+    ],
+
+    "blocks": [
+      {
+        "type": "article",
+        "name": "Manual Article",
+        "settings": [
+          {
+            "type": "article",
+            "id": "article",
+            "label": "Select Article"
+          }
+        ]
+      }
+    ],
+
+    "max_blocks": 4,
+
+    "presets": [
+      {
+        "name": "Custom featured blog"
+      }
+    ]
+  }
+{% endschema %}

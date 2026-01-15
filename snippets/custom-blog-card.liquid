@@ -1,0 +1,72 @@
+{% style %}
+
+.custom-blog-card {
+  border: 1px solid #DFDFDF;
+  padding: 10px;
+  border-radius: 16px;
+
+}
+.blog-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-card-image {
+  width: 100%;
+  height: auto !important;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.blog-meta {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+}
+
+.blog-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 6px;
+  line-height: 1.3;
+}
+
+a.read-more {
+  color: #F8518B;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+{% endstyle %}
+<div class="custom-blog-card">
+<a href="{{ article.url }}" class="blog-card">
+
+  {% if article.image %}
+    <img 
+      src="{{ article.image | img_url }}"
+      width="600px"
+      height="600px"
+      alt="{{ article.title }}"
+      class="blog-card-image"
+    >
+  {% endif %}
+
+  <div class="blog-meta">
+
+    {{ article.published_at | date: "%B %d, %Y" }}
+    {% if article.author %}
+      — {{ article.author }}
+    {% endif %}
+
+    <h3 class="blog-title">{{ article.title }}</h3>
+
+    {% if article.content %}
+      <p>{{ article.content | strip_html | truncate: 120 }}</p>
+      <a href="{{ article.url }}" class="read-more">Read more</a>
+    {% endif %} 
+
+  </div>
+
+</a>
+</div>
